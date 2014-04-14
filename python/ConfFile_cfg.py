@@ -9,7 +9,7 @@ process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(2) )
 process.source = cms.Source("PoolSource",
     # replace 'myfile.root' with the source file you want to use
     fileNames = cms.untracked.vstring(
-        'file:/nfs-3/userdata/gzevi/patTuple_mini.root'
+        'file:/afs/cern.ch/user/g/gzevi/public/patTuple_mini.root'
     )
 )
 
